@@ -91,7 +91,7 @@
   
   <profiles>
     <profile>
-      <id>release</id>
+      <id>nexus</id>
             <activation>
                 <property>
                     <name>performRelease</name>
