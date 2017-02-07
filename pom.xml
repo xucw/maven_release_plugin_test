@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.yhd.arch</groupId>
   <artifactId>test</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   
      
@@ -22,7 +22,6 @@
         <version.maven.plugin.javadoc>2.10.3</version.maven.plugin.javadoc>
         <version.maven.plugin.gpg>1.5</version.maven.plugin.gpg>
         <version.maven.plugin.compiler>3.1</version.maven.plugin.compiler>
-        <version.maven.plugin.nexus>1.6.6</version.maven.plugin.nexus>
     </properties>
   
   <modules>
@@ -31,22 +30,6 @@
   </modules>
   
   <build>
-   <plugins>
-     <!-- Deploy nexus -->
-      
-            <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>${version.maven.plugin.nexus}</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <serverId>nexus</serverId>
-                    <nexusUrl>http://localhost:8082/</nexusUrl>
-                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                </configuration>
-            </plugin>
-            
-   </plugins>
     <pluginManagement>
       <plugins>
       
@@ -54,10 +37,14 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>2.6</version>
+                    <!--  
                     <configuration>
-                        <escapeString>\</escapeString>
-                        <encoding>UTF-8</encoding>
+                        <delimiters>
+                            <delimiter>${resource.delimiter}</delimiter>
+                        </delimiters>
+                        <useDefaultDelimiters>false</useDefaultDelimiters>
                     </configuration>
+                    -->
                 </plugin>
         <!-- Compiler versiion -->
                 <plugin>
@@ -91,7 +78,7 @@
   
   <profiles>
     <profile>
-      <id>nexus</id>
+      <id>release</id>
             <activation>
                 <property>
                     <name>performRelease</name>
@@ -148,16 +135,4 @@
             </build>
     </profile>
   </profiles>
-  <distributionManagement>
-        <repository>
-        <id>nexus</id>
-        <name>Releases</name>
-        <url>http://localhost:8082/repository/maven-releases</url>
-    </repository>
-    <snapshotRepository>
-        <id>nexus</id>
-        <name>Snapshot</name>
-        <url>http://localhost:8082/repository/maven-snapshots</url>
-    </snapshotRepository>
-    </distributionManagement>
 </project>
