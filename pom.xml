@@ -37,14 +37,10 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>2.6</version>
-                    <!--  
                     <configuration>
-                        <delimiters>
-                            <delimiter>${resource.delimiter}</delimiter>
-                        </delimiters>
-                        <useDefaultDelimiters>false</useDefaultDelimiters>
+                        <escapeString>\</escapeString>
+                        <encoding>UTF-8</encoding>
                     </configuration>
-                    -->
                 </plugin>
         <!-- Compiler versiion -->
                 <plugin>
@@ -135,4 +131,20 @@
             </build>
     </profile>
   </profiles>
+  <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+        <!--  
+        <site>
+            <id>website</id>
+            <url>file://C:/clunven/dev/mvnsite</url>
+        </site>
+        -->
+    </distributionManagement>
 </project>
