@@ -20,6 +20,7 @@
         <version.maven.plugin.source>2.2.1</version.maven.plugin.source>
         <version.maven.plugin.javadoc>2.10.3</version.maven.plugin.javadoc>
         <version.maven.plugin.gpg>1.5</version.maven.plugin.gpg>
+        <version.maven.plugin.compiler>3.3</version.maven.plugin.compiler>
     </properties>
   
   <modules>
