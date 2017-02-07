@@ -39,7 +39,7 @@
                 <version>${version.maven.plugin.nexus}</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <serverId>maven-omniprimeinc</serverId>
+                    <serverId>releases</serverId>
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
@@ -148,11 +148,11 @@
   </profiles>
   <distributionManagement>
         <snapshotRepository>
-            <id>maven-omniprimeinc</id>
+            <id>releases</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>maven-omniprimeinc</id>
+            <id>releases</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
         <!--  
