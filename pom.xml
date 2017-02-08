@@ -6,6 +6,11 @@
   <version>1.0.9.3-SNAPSHOT</version>
   <packaging>pom</packaging>
   
+  <parent>
+	  <groupId>com.yhd.component.parent</groupId>
+	  <artifactId>component-parent-local</artifactId>
+	  <version>1.1.4-SNAPSHOT</version>
+  </parent>
     <scm>
         <connection>scm:git:git@github.com:xucw/maven_release_plugin_test.git</connection>
         <developerConnection>scm:git:git@github.com:xucw/maven_release_plugin_test.git</developerConnection>
