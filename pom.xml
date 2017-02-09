@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.yhd.arch</groupId>
   <artifactId>test</artifactId>
-  <version>1.0.9.4-SNAPSHOT</version>
+  <version>1.0.9.4</version>
   <packaging>pom</packaging>
   <!--  
   <parent>
@@ -16,7 +16,7 @@
         <connection>scm:git:git@github.com:xucw/maven_release_plugin_test.git</connection>
         <developerConnection>scm:git:git@github.com:xucw/maven_release_plugin_test.git</developerConnection>
         <url>git@github.com:xucw/maven_release_plugin_test.git</url>
-        <tag>test-1.0.0</tag>
+        <tag>test-1.0.9.4</tag>
     </scm>
     
     <properties>
@@ -38,7 +38,7 @@
       <dependency>
          <groupId>com.yhd.arch</groupId>
          <artifactId>mavenPlugin</artifactId>
-         <version>1.0.0-SNAPSHOT</version>
+         <version>1.0.0</version>
       </dependency>
   </dependencies>
   
