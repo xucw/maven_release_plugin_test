@@ -35,11 +35,13 @@
   </modules>
   
   <dependencies>
+      <!--  
       <dependency>
          <groupId>com.yhd.arch</groupId>
          <artifactId>mavenPlugin</artifactId>
          <version>1.0.2-SNAPSHOT</version>
       </dependency>
+      -->
   </dependencies>
   
   <build>
