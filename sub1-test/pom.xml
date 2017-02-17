@@ -27,7 +27,7 @@
       <version>1.0.9.8-SNAPSHOT</version>
     </dependency>
   </dependencies>
-  
+  <!--  
   <build>
     <pluginManagement>
     <plugins>
@@ -42,4 +42,5 @@
         </plugins>
         </pluginManagement>
   </build>
+  -->
 </project>
