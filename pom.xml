@@ -32,6 +32,7 @@
   <modules>
     <module>sub1-test</module>
     <module>sub2-test</module>
+    <module>sub-common</module>
   </modules>
   
   <dependencies>

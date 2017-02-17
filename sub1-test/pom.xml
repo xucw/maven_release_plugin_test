@@ -21,6 +21,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.yhd.arch</groupId>
+      <artifactId>sub-common</artifactId>
+      <version>1.0.9.7-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   
   <build>
