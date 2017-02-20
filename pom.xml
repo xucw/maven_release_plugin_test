@@ -8,7 +8,7 @@
     
   <parent>
 	  <groupId>com.yhd.component.parent</groupId>
-	  <artifactId>component-parent-local4</artifactId>
+	  <artifactId>component-parent-local5</artifactId>
 	  <version>1.0.0-SNAPSHOT</version>
   </parent>
   
