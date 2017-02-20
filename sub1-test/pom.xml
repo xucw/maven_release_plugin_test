@@ -4,11 +4,11 @@
   <parent>
     <groupId>com.yhd.arch</groupId>
     <artifactId>test</artifactId>
-    <version>1.0.9.13-SNAPSHOT</version>
+    <version>1.0.9.12-SNAPSHOT</version>
   </parent>
   <groupId>com.yhd.arch</groupId>
   <artifactId>sub1-test</artifactId>
-  <version>1.0.9.13-SNAPSHOT</version>
+  <version>1.0.9.12-SNAPSHOT</version>
   <name>sub1-test</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -24,7 +24,7 @@
     <dependency>
       <groupId>com.yhd.arch</groupId>
       <artifactId>sub-common</artifactId>
-      <version>1.0.9.13-SNAPSHOT</version>
+      <version>1.0.9.12-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <!--  
