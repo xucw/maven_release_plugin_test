@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.yhd.arch</groupId>
   <artifactId>test</artifactId>
-  <version>1.0.9.12-SNAPSHOT</version>
+  <version>1.0.9-SNAPSHOT</version>
   <packaging>pom</packaging>
     
   <parent>
