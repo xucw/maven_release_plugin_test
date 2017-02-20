@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.yhd.arch</groupId>
     <artifactId>test</artifactId>
-    <version>1.0.9.12-SNAPSHOT</version>
+    <version>1.0.9-SNAPSHOT</version>
   </parent>
   <groupId>com.yhd.arch</groupId>
   <artifactId>sub1-test</artifactId>
@@ -24,7 +24,7 @@
     <dependency>
       <groupId>com.yhd.arch</groupId>
       <artifactId>sub-common</artifactId>
-      <version>1.0.9.12-SNAPSHOT</version>
+      <version>1.0.9-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <!--  
