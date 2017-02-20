@@ -7,8 +7,8 @@
   <packaging>pom</packaging>
     
   <parent>
-	  <groupId>com.yhd.component.parent</groupId>
-	  <artifactId>component-parent-local</artifactId>
+	  <groupId>com.omniprimeinc.component.parent</groupId>
+	  <artifactId>component-parent</artifactId>
 	  <version>1.1.4</version>
   </parent>
   
