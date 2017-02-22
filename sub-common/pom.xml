@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.yhd.arch</groupId>
     <artifactId>test</artifactId>
-    <version>3.5.1-SNAPSHOT</version>
+    <version>3.5.1</version>
   </parent>
   <artifactId>sub-common</artifactId>
 </project>
