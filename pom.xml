@@ -8,7 +8,7 @@
     
   <parent>
 	  <groupId>com.yhd.component.parent</groupId>
-	  <artifactId>component-parent-local2</artifactId>
+	  <artifactId>component-parent-local1</artifactId>
 	  <version>1.0.0</version>
   </parent>
   
@@ -44,7 +44,7 @@
       </dependency>
       -->
   </dependencies>
-  <!--  
+    
   <build>
     <pluginManagement>
     <plugins>
@@ -60,7 +60,7 @@
         </plugins>
         </pluginManagement>
   </build>
-  -->
+  
   <!--分发配置-->
     <distributionManagement>
         <repository>
